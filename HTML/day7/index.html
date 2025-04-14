@@ -1,0 +1,48 @@
+<!--for nested creation use ">"-->
+<!--for side by side creation use "+"-->
+<!--use "." symbol for representing class and use "#" symbol for representing ID. for example , enter p.first to get <p class="first"></p>
+and enter p#first to get <p id="first"></p> . -->
+  <!--ex: p.first#second
+  <p class="first" id="second"></p> -->
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+
+        <label for="first">Name:</label>     <!--here label is used to write something before input box and in label "for" is used to open the input box when we click on the label.-->
+        <input type="text" id="first" required name="fname" value="random" placeholder="Enter your name">       <!--here type is used to create the input box and id is used to locate that box.-->
+        <br><br>    <!--In above line , we use name command to represent the subitted data in the  server database as fname. And we use the "value" or "placeholder" command to represent the something in the input box when we don't enter anything. -->
+        <label for="second">Age:</label>  <!--Here value of for in label and value of id in input must has to be same. -->    
+        <input type="number" id="second" min="0" max="100" required>    <!--here required symbol is to show that the input data must be given before submit button , otherwise it will show like fill this box.-->
+        <br><br>
+        <button>submit</button>              <!--here button is to create a tap or submit or enroll option.-->
+
+    </form>
+
+
+    <!--There will two key-value attributes name & class , these two attributes are used to store the information entered in the input box . the value attribute is used to represent the data entered in input box and this name is used to come behind this value like name = value .
+    Ex: Name="fname"
+        value="random"
+        then server will read it as fname = random. this keyvalue attributes are used to make difference between the same two Names & values. 
+        using of value attribute is optional. if don't use it also the data entered in input box will be automatically assigned as value in the server base.
+        if we use value attribute then the data mentioned in the value attribute will be automatically displayed in the input box same as the placeholder attribute.-->
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+  </html>

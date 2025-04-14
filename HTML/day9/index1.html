@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Learn DSA for free from Coder Army</h1><br>
+        <nav style="background-color: antiquewhite;">
+            <a href="#one">C++ Introduction</a><br>
+            <a href="#two">C++ Compiler</a><br>
+            <a href="#three">Array</a><br>
+            <a href="#four">Tree</a><br>
+            <a href="#five">Graph</a><br>
+        </nav>
+    </header>
+    
+    <main>
+
+
+        <section id="one">
+        <h2>Introduction to C++</h2><br>
+        <p>C++ is a powerful general-purpose programming language that was developed as an extension of the C programming language by Bjarne Stroustup in the early 1980s. C++ is widely used for system/software development,<br>
+            game development, and applications that require high performance.
+        </p><br>
+        <p>
+        <h3>Features of C++ </h3><br>
+            <ol>
+                <li>Object-Oriented:C++ supports object-oriented programming (oop) principles, allowing for the allowing for the creation of classes and objects. This helps in organising code and promoting reusability.</li>
+                <li>Rich standard library: C++ provides a rich set of built-in functions and library, which can significantly reduce the development time. </li>
+                <li>Performance: C++ offers low-level memory manipulation, allowing developers to optimize performance-critical applications. </li>
+                <li>Probability:C++ programs can be compiled and runned on various platforms without significant modifications. </li>
+                <li>Compatability with C: C++ is compatible with C, allowing for the integration of existing C code.</li>
+            </ol><br>
+        <pre style="background-color: aqua;">
+            <code>
+                #include &lt;iostream&gt;
+                using namespace std;
+                int main(){
+                    count &lt;&lt; "Hello, world !"  &lt;&lt; endl;
+                    return 0;
+                }
+            </code>
+        </pre><br>
+
+        </p><br>
+        <ul>
+            <li>#include &lt;iostream&lt; This includes the input/output stream library, allowing the use of count for output and cin for input.</li>
+            <li>using namespace std;: This line allows access to the standard library features without prefixing them with std;: </li>
+            <li>int main(): The entry point of every c++ program.</li>
+            <li>count: used for outputting to the console.</li>
+            <li>return 0;: Indicates that the program has ended successfully.</li>
+        </ul><br>
+        <h3>Applications of C++</h3><br>
+        <ol>
+            <li>System software: C++ is used in developing operating systems and system-level applications.</li>
+            <li>Game Development: Many Game engines and Games are written in C++ due to its performance and control over system resources.</li>
+            <li>Embedded systems: C++ is often used in programming embedded systems for devices like smartphones, appliances, and automotive systems.</li>
+            <li>Web Browsers: Many Web Browsers, like Google chrome, use C++ for performance-critical components.</li>
+        </ol><br>
+        </section>
+
+
+        <section id="two">
+        <h3>Online C Compiler</h3><br>
+        <iframe src="https://www.programiz.com/c-programming/online-compiler/" frameborder="500" height="500" width="100%"></iframe><br>
+        </section>
+
+
+        <section id="three">
+        <h2>Introduction to Arrays</h2>
+        <p>What is an array ?</p>
+        <p>An array is a data structure that stores a collection of elements, typically of the same data type. Arrays are used to store multiple values in a single variable, which allows for efficient data management and manipulation.</p><br>
+        <img src="./Arrays.webp" alt="Arrays in C++">
+
+        
+        <h3>Characterisics of array</h3><br>
+        <ul>
+            <li>Fixed size: The size of an array is defined when it is created and cannot be changed.</li>
+            <li>Indexed: Each element in an array is accessed using an index, which typically starts from zero. </li>
+            <li>Homogeneous elements: All elements in an array must be of the same data type, such as integers, floats, or strings.</li>
+        </ul><br>
+        <h3>Types of Array</h3>
+        <ol>
+            <li>One-Dimentional Arrays: A linear list of elements, where each element can be accessed by a single index.
+                           <ul><li>Example:int numbers[5]; (stores 5 integers)</li></ul>
+            </li>
+            <li>
+                Multi-Dimensional arrays:Arrays with more than one dimension, commonly used for matrices and tables.
+                           <ul><li>Example: int matrix [3][3]; (a 3*3 matrix of intergers)</li></ul>
+            </li>
+            <li>Dynamic Arrays: Arrays that can change size during program execution, typically implemented using data stuctures like lists.</li>
+        </ol><br>
+        <h3>Tutorials for Array</h3><br>
+        <table>
+            <tbody>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/moZNKL37w-s" frameborder="100" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/567332frcF0" frameborder="100" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/9_B6TmAHveU" frameborder="100" allowfullscreen></iframe></td>
+            </tr>
+            <tr>
+                <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="100" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/YpZUgiT1N94" frameborder="100" allowfullscreen></iframe></td>
+                <td><iframe src="https://www.youtube.com/embed/w2HOAYymS3A" frameborder="100" allowfullscreen></iframe></td>
+            </tr>
+            </tbody>
+        </table><br>
+        </section>
+
+
+        <section id="four">
+        <h2>Introduction to Trees</h2>
+        <pre>
+            A tree is a hierarchical data structure that consists of nodes connected by edges. Each tree has a single root node at the top , from which all other nodes branch out. Nodes can have zero or more child nodes, and each child node can
+            further brach out into more nodes. Trees are commonly used to represent hierarchical relationships , such as file systems or organisational structures .
+        </pre>
+        <img src="./Trees (1).webp" alt="Tree in C++">
+        <h3>
+            Characteristics of Tree
+        </h3>
+        <ul>
+            <li>Root Node: The topmost node in a tree, which has no parent.</li>
+            <li>Child Node: A node that is a descendent of another node.</li>
+            <li>Parent Node: A node that has one or more child nodes </li>
+            <li>Leaf Node: A node that has no children</li>
+            <li>Depth: the number of edges from the root node to a specific node.</li>
+            <li>Hieght: The number of edges on the longest path from a node to a leaf.</li>
+        </ul>
+        <h3>Types of Trees</h3>
+        <ol>
+            <li>Binary Tree: Each node has atmost two children , referred to as the left and right children.</li>
+            <li>Binary search Tree(BST): A binary tree where the left child contains only nodes with values less than the parent node, and the right child contains only nodes with values greater than the parent node.  </li>
+            <li>AVL Tree: A self-balancing binary search tree where the difference in heights between the right and left subtrees is at most one. </li>
+            <li>Red-blank Tree: A balanced binary search tree with an additional property that ensures the tree remains during the insertions and deletions. </li>
+            <li>N-ary Tree: A tree in which a node can have atmost N children. </li>
+        </ol>
+        <h3>Applications of Trees </h3>
+        <ul>
+        <li>Data Storage: Trees are used in databases for indexing data and improving search performance.</li>
+        <li>File systems: hierarchical file systems use tree structures to organize files and directories.</li>
+        <li>Network Routing: Trees are used in routing algorithms to manage and optimize the flow of data across networks. </li>
+        <li>Artificial intelligence: Trees, such as decision trees, are used in AI algorithms for decision-making process.</li>
+        </ul>
+        <h2>Tutorial for Tree</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/_b0bfpO3b4I" frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/P30p5jYsiDc" frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/T78jHD4fNgc" frameborder="100" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/T78jHD4fNgc" frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/z9GM2HB4mUk" frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/wusLRj3XUdE" frameborder="100" allowfullscreen></iframe></td>
+                </tr>
+            </tbody>
+            </table>
+            </section>
+
+
+        <section id="five"> 
+        <h3>Introduction to Graphs</h3>
+        <pre>
+            A graph is a data structure that consists of a set of vertices (or nodes) and a set of edges that connects pairs of vertices. Graphs are used to represent relationships or connections between various entities and are fundamental in computer science 
+            for modelling complex networks, such as social networks, transportation systems, and communication networks.
+        </pre>
+        <img src="./Graphs (1).webp" alt="Graphs in C++">
+        <h3>Characteristics of Graphs</h3>
+        <ul>
+            <li>various nodes: The fundamental units of a graph, representing entities in the graphs.</li>
+            <li>Edges: connections between pairs of vertices, which can be derected (one-way) or undirected (two-way)</li>
+            <li>Degree: The number of edges connected to a vertex. For directed graphs, a vertex can have an in-degree (number of incomming edges) and an out-degree (number of outgoing edges).</li>
+            <li>Path: A sequence of edges that connects a sequenc of vertices.</li>
+            <li>Cycle: A path that starts and ends at the same vertex without repeating any edges.</li>
+        </ul>
+        <h3>Types of graphs</h3>
+        <ol>
+            <li>Directed Graph (Digraph): A graph where the edges have a direction, indicatin the relationship flows from one vertex to another</li>
+            <li>Undirected graph: A graph where the edges donot have a direction, indicating the two way relationship between vertices.</li>
+            <li>Weighted Graph: A graph where each edge has an associated weight or cost, often used to represent distances or costs in a network.</li>
+            <li>Unweighted Graph: A Graph where all edges are treated equally, without any weights.</li>
+            <li>Cyclic Graph: A graph that contains at least one cycle.</li>
+            <li>Acyclic graphs: A graph that doesnot contain any cycles, such as a tree.</li>
+        </ol>
+        <h3>Applicatiions of Graph</h3>
+        <ol>
+            <li>Social networks: Graphs are used to model relationshipsand interactions between individuals or entities in social media platforms.</li>
+            <li>Transportation networks: Graphs represent roads, intersections and routes in transportation systems, helping optimize travel and logistics.</li>
+            <li>Web page link analysis: The structure of web can be represented as a graph , with web pages as vertices and hyperlinks as edges, enabling search engines to analyze and rank pages. </li>
+            <li>Network Flow:Graphs are utilized in flow networks to model the flow of resources, such as electricity or data, through network.</li>
+        </ol>
+        <h2>Tutorial for Graphs</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/gGlfzqPT-hE   " frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/bxbrUGvBCnY   " frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/gGlfzqPT-hE  " frameborder="100" allowfullscreen></iframe></td>
+                </tr>
+                <tr>
+                    <td><iframe src="https://www.youtube.com/embed/oz1EaP_Bw4s  " frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/2JgYwQ6TZ44   " frameborder="100" allowfullscreen></iframe></td>
+                    <td><iframe src="https://www.youtube.com/embed/sPlN86EpjJA   " frameborder="100" allowfullscreen></iframe></td>
+                </tr>
+            </tbody>
+        </table>
+            </section>
+    </main>
+
+    <footer>
+        <p>&copy;All rights are reserved by Rohit Negi.</p>
+
+    </footer>
+</body>
+</html>

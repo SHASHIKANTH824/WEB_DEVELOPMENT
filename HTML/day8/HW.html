@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Health Details Form</h1>
+    <form>
+        <fieldset>
+        <legend>personel information</legend>
+        <label for="one">Full Name:</label>
+        <input type="text" name="Full name" id="one" required>
+        <br><br>
+        <label for="two">Date of birth:</label>
+        <input type="date" name="DOB" id="two" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="1" value="Male">
+        <label for="1">Male</label>
+        <input type="radio" name="Gender" id="2" value="Female">
+        <label for="2">Female</label>
+        <input type="radio" name="Gender" id="3" value="Others">
+        <label for="3">Others</label>
+        <br><br>
+        <label for="three">Phone Number:</label>
+        <input type="tel" name="Contact" id="three">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Medical History</legend>
+            <label for="11">Blood Group:</label>
+             <select name="Blood Group:" id="11">
+               <option value="" disabled selected>select your blood group</option>
+               <option value="A+">A+</option>
+               <option value="B+">B+</option>
+               <option value="AB">AB+</option>
+               <option value="O+">O+</option>
+             </select>
+             <br><br>
+             <p>Do you wear glasses or contact lenses? </p>
+             <label>  </label>
+             <input type="radio" name="  " id="00" value="Yes, I wear">
+             <label for="00">Yes</label><br>
+             <input type="radio" name="  " id="01" value="No, I don't">
+             <label for="01">No</label>
+             <BR><BR>
+                <label for="12">Pre-Existing Condition:</label><br>
+                <textarea name="Comment" id="12" placeholder="List any pre-existing medical conditions" rows="5" cols="50"></textarea>
+                <br><br>
+             <p>Allergies:</p>  
+             <label>  </label>  
+             <input type="radio" name="  " id="111" value="Pollen">
+             <label for="111">Pollen</label><br>
+             <input type="radio" name="  " id="222" value="Peanunts">
+             <label for="222">Peanunts</label><br>
+             <input type="radio" name="  " id="333" value="Latex">
+             <label for="333">Latex</label><br>
+             <input type="radio" name="  " id="444" value="None">
+             <label for="444">None</label>
+             <br><br>
+             <label for="555">Current Medications:</label>
+             <textarea name="Comment" id="555" rows="5" cols="50"></textarea>
+             <br><br>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>Emergency Contact</legend>
+            <label for="666">Emergency Contact Name:</label>
+            <input type="text" name="Emergency contact name" id="666" required>
+            <br><br>
+            <label for="777">Emergency phone number:</label>
+            <input type="tel" name="Emergency phone number:" id="777">
+            <br><br>
+            <label for="888">Relationship to emergancy contact:</label>
+            <input type="text" name="Relationship" id="888">
+        </fieldset>
+    </form>
+</body>
+</html>

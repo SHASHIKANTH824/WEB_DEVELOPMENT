@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <form>
+        <fieldset>   <!--Here field set is used to group the data entered inside the form attribute. it will group the data simply by putting data inside the box. -->
+            <legend>IIT JEE Registration Form</legend>    <!-- here legend attribute is used to get the "IIT JEE Registration Form" in between the outline of fieldset. -->
+        <label for="one">Full Name:</label>
+        <input type="text" name="FULL NAME" id="one" required>
+        <br><br>
+        <label for="two">Email:</label>
+        <input type="email" name="Email ID" id="two" required>
+        <br><br>
+        <label for="three">Phone:</label>
+        <input type="tel" name="Contact" id="three" required>
+        <br><br>
+        <label for="four">Password:</label>
+        <input type="password" name="Password" id="four" required>
+        <br><br>
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="1" value="Male">
+        <label for="1">Male</label>
+        <input type="radio" name="Gender" id="2" value="Female">
+        <label for="2">Female</label>
+        <input type="radio" name="Gender" id="3" value="other">
+        <label for="3">Other</label>
+        <br><br>
+        <label for="five">DOB:</label>
+        <input type="date" name="Date of birth" id="five" min="2001-01-01" max="2005-12-31">
+        <br><br>
+        <label for="six">School Name:</label>
+        <input type="text" name="School Name" id="six" required>
+        <br><br>
+        <label for="seven">Board:</label>
+        <select name="School board" id="seven">
+            <option value="" disabled selected>select your board</option>
+            <option value="SSC">SSC</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="Other">other</option>
+        </select>
+        <br><br>
+        <label for="eight">Year of Passing:</label>
+        <input type="number" name="Year of passing" id="eight" min="2023" max="2025" required>
+        <br><br>
+        <label for="nine">Exam-center:</label>
+        <select name="Exam-center" id="nine">
+           <option value="" disabled selected>select your center</option>
+           <option value="Nizamabad">Nizamabad</option>
+           <option value="Hyderabad">Hyderabad</option>
+           <option value="Adilabad">Adilabad</option>
+           <br><br>
+           <button>Register</button>
+        </select>
+        </fieldset>
+    </form>
+</body>
+</html>
+
+<!-- fieldset attribute is used for grouping the data. And to give name to this fieldset outline , then use the attribute "Legend".-->
+ <!--we use "action" tag in "form" to give the url of the server, where the input data will be sent after submission. -->
