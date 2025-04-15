@@ -1,0 +1,18 @@
+.one{
+    height: 300px;
+    width: 300px;
+    float: right;
+    clear: both;
+    clear: left;
+}
+  
+/* "clear: left" will not be applicable in the ".one" (i.e on the rohit sharma photo) because the css will read code as , when we write the "float:right" on the rohit sharma 
+picture then the css will read it before the virat image was introduced . so the virat kohli image will not be taken into the next line by using the 
+"clear:left" in the ".one" class . the virat image will be there to the left of the rohit image in the same line . And clear both also won't work on the ".one"
+class because of the same reason .*/
+
+.two{
+    height: 300px;
+    width: 300px;
+    float: left;
+}

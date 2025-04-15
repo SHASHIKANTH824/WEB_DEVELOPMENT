@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding: 10rem;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.box{
+    font-size: 6rem;
+    background-color: orange;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: movement;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    position: relative;
+}
+
+/* first method to make animations 
+
+@keyframes movement{
+    from{
+        top: 0px;
+        left: 2000px; here we can also use the translate and transform propertis for movement or to make changes. 
+    }
+
+    to{
+        top: 0px;
+        left: 2000px;
+    }
+}
+*/
+
+
+/* second method to make the animations */
+
+@keyframes movement{
+    0%{
+        transform: translate(0vw,0vh);
+    }
+
+    25%{
+        transform: translate(30vw,-30vh);
+    }
+
+    50%{
+        transform: translate(60vw,0vh);
+    }
+
+    75%{
+        transform: translate(0vw,0vh);
+    }
+
+}

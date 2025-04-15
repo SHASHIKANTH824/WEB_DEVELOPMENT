@@ -1,0 +1,33 @@
+.container{
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-top: 150px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+    position: absolute;
+    bottom: 20px;
+}
+
+.box3{
+    background-color: green;
+    position: fixed;
+    top: 25px;
+}
+
+.box4{
+    background-color: yellow;
+    position: sticky;
+    left: 10px;
+}

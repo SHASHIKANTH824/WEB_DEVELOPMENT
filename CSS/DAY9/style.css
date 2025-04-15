@@ -1,0 +1,38 @@
+.container{
+    background-color: aqua;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  /* flex-wrap will make our items wrap to the next line when the container or screen is not wide enough , it makes our site responsive */
+    align-content: space-between;   /* play the called flexboxfroggy.com */
+} 
+
+.box{
+    border: 10px solid black;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.box1{
+    background-color: brown;
+    flex-basis: 200px;
+}
+
+.box2{
+    background-color: blue;
+    order: -1;
+    align-self: flex-start; /* align-self will work only on the cross-axis (vertical axis). */
+}
+
+.box3{
+    background-color: green;
+    flex: 2 2 200px;   /* "flex: 2 2 200px;" is the short form to write the flex */
+}
+
+.box4{
+    background-color: saddlebrown;
+    flex-shrink: 3;
+}

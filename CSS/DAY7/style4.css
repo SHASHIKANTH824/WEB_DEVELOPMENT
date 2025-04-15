@@ -1,0 +1,15 @@
+.one{
+    height: 300px;
+    width: 300px;
+    float: right;
+}
+
+
+.two{
+    height: 300px;
+    width: 300px;
+    float: left;
+    clear: right;
+}  
+
+/* here clear tag will clears the line from floating elements and makes the clear tag element to float in the next line . */

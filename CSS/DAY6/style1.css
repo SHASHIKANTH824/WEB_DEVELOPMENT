@@ -1,0 +1,33 @@
+/*header{
+    background-color: aquamarine;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;   
+                        /*here we gave the fixed element (header part) to attach to the left,right and top, so when we gave the margin top also in main part ,then it won't come down.
+                         but when we don't give the top:0% , left:0%, right:0% to the positioned element and give width=100% then it will come down because of margin-top in main part;
+                         in this case , we have to use the padding-top , to make the header part (fixed element) to be fixed at top.
+ }
+
+main{
+      margin-top: 100px;  
+}
+
+
+
+/*second method to make heading to fix at top  */
+
+
+*{
+    margin: 0%;
+}
+
+header{
+    background-color: aquamarine;
+    position: fixed;
+    width:100%;
+}
+
+main{
+      padding-top: 50px;
+}

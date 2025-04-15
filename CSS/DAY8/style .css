@@ -1,0 +1,193 @@
+*{
+    margin: 0%;
+}
+
+
+body{
+    background-color: rgb(255, 243, 243);
+}
+
+.container:hover{
+    background-color: white;
+
+}
+
+/* Here we must write the "border: 10px solid rgb(253, 243, 243);" in the .container only , not in the .container:hover. if we write this
+"border: 10px solid rgb(253, 243, 243);"  in the .conntainer:hover then the image will start to move side when we bring the mouse pointer on that
+image . So to make the image stable when the mouse pointer bring on to the image we must write the "border: 10px solid rgb(253, 243, 243);" in the 
+.container only . */ 
+
+.container{
+    border: 10px solid rgb(253, 243, 243);
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.box{
+     display: inline-block;
+}
+
+.img{
+    height: 350px;
+    width: 350px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.restaurant , .information , .location{
+    position: relative;
+}
+
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.rating{
+    border-radius: 5px;
+    padding: 3.5px;
+    background-color: green;
+    position: absolute;
+    right: 5px;
+    color: white;
+
+}
+
+.price , .distance{
+    position: absolute;
+    right: 5px;
+}
+
+.information , .address{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.distance{
+    font-weight: bold;
+    font-size: 10px;
+
+}
+
+.off{
+    position: absolute;
+    color: white;
+    background-color: rgba(0,255,0,0.6);
+    bottom:35px;
+    left: 10px;
+
+}
+
+.image{
+    position: relative;
+
+}
+
+.first{
+    margin-left: 250px;
+    position: relative;
+}
+
+.brand{
+    color: rgb(153, 13, 13);
+    font-weight: bold ;
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    color: gray;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button2{
+    float: right;
+}
+
+.button1{
+    float: right;
+}
+
+
+.searching{
+    height: 30px;
+    width: 300px;
+    margin-right: 50px;
+    margin-left: 150px;
+    position: relative;
+    bottom: 13px;
+}
+
+.head{
+    background-color: white;
+}
+
+.img7,.img8,.img9{
+    height: 70px;
+    width: 70px;
+    margin-left: 250px;
+}
+
+.dining,.Delivery,.Nightlife{
+    position: relative;
+    bottom: 22px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(91, 89, 89);
+
+}
+
+.second{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+.img7,.img8{
+    margin-left: 175px;
+}
+
+.three{
+    background-color: rgb(91, 90, 90);
+    height: 500px;
+    color: white;
+}
+
+.box1,.box2,.box3,.box4{
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.image66,.image77,.image88,.image99{
+    height: 400px;
+    width: 300px;
+}
+
+.Top1,.Top2,.Top3,.Top4{
+    color: white;
+    position: relative;
+    bottom: 65px;
+    font-weight: bolder;
+}
+  
+.place1,.place2,.place3,.place4{
+    color: white;
+    position: relative;
+    bottom: 50px;
+    font-weight: bolder;
+}
+

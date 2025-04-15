@@ -1,0 +1,20 @@
+*{
+    margin: 0;     /* here by using this property , we can remove the margin given in the edges or anywhere. */
+}
+
+
+body{
+    background-color: white;
+}
+
+.one{
+    background-color:crimson;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 50%;   /* here "border-radius" will take the two mid points of two adjacent sides & start rotating it & makes that part into the arc.
+                            like this it will do in all directions. hence circle will be formed when we give input value as 50% . */
+   
+    margin:auto;          /* here "margin:auto" will bring the content to the middle of that horizontal row automatically. */
+    margin-top: 30vh;
+    
+}

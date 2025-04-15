@@ -1,0 +1,30 @@
+div{
+    background-color: aqua;
+    height: 500px;
+    width: 1000px;
+    overflow: visible;
+}
+
+
+div{
+    background-color: aqua;
+    height: 500px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+
+div{
+    background-color: aqua;
+    height: 500px;
+    width: 1000px;
+    overflow: scroll;
+}
+
+
+div{
+    background-color: aqua;
+    height: 500px;
+    width: 1000px;
+    overflow: auto;
+}

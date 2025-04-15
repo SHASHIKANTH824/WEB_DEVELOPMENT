@@ -1,0 +1,13 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(19, 199, 49);
+}
+
+@media (max-width:400px){
+    .container{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(6, 104, 190);  /* here when the screen size is less than 400px , the background color changes */
+    }
+}

@@ -1,0 +1,69 @@
+/* vw and vh :  here "vh" stands for the viewport height , and vw stands for the viewport width.
+10vh means 10% of the viewport height and 10vw means 10% of the viewport width. */
+
+h1{
+    font-size: 10vw; 
+}
+
+/*font-weight: it is a property that determines how bold or light text appears. it includes numeric value range from 100 to 900. and a value 400 is considered as normal
+700 considered as bold.  it also includes keywords: "bold", "bolder", "lighter", and "normal" */
+
+p{
+    font-weight: 400;
+}
+
+
+/* font-style */
+
+ul{
+    font-style: oblique;
+}
+
+/* font-variant: it is used to convert all lowercase letters into uppercase letters */
+
+h2{
+    font-variant:small-caps;
+}
+
+/*line-height: it is also known as the "leading" , is the vertical distance between the baselines of two lines of text. it sets the height of a line box in horizontal writing modes. */
+h3{
+    line-height: 2px;
+}
+
+
+/*letter-spacing: it is the amount of space between the letters in a block of text. it's also known as character spacing or tracking.*/
+
+h4{
+    letter-spacing: 1px;
+}
+
+
+/*word-spacing: this property will increases or decreases the white space between words. 
+note: negative values are allowed. */
+
+div{
+    word-spacing: 20px;
+}
+
+
+/*text-transform: it specifies how to capitalize an element's text. it can be used to make all into uppercase or all into lowercase or with each word capitalized. */
+/* here "capitalize" means it will do the starting letter of all words into capital letter. */
+h5{
+    text-transform: capitalize;
+}
+
+/*font-stretch: it allows authors to specify a normal, condensed, or expannded face from the fonts. */
+/* condensed: a font facewith characters that are narrower thann the normal face
+expanded: a font face with characters that are wider than the normal face. */
+
+h6{
+    font-stretch:extra-expanded;
+}
+
+/* here when we add color to <ul> list tag , then it will be automatically added to the <li> tag present inside the <ul> tag.
+This property is known as the inheritance. */
+
+ul{
+    background-color: darkred;
+    color: chartreuse;
+}

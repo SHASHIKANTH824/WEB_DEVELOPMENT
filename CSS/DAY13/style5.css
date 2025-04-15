@@ -1,0 +1,38 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    background-color: black;
+    padding: 10rem;
+    display: grid;
+    justify-content: center;
+    gap: 6rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    place-items: center center;   /* here the "place-items: center center;" will contain the two parts , first part is for align-items and 
+                                     second part is for justif- content . it will move the boxes to different places.  */
+}
+
+.box{
+    background-color: yellowgreen;
+    font-size: 3rem;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2{
+    justify-self: flex-start;
+}

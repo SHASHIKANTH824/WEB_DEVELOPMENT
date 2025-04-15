@@ -1,0 +1,48 @@
+
+/* 2-D transformations */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1rem solid black;
+    font-size: 6rem;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+.box:hover{
+    transform: translate(400px,-400px);
+    transform: scale(2);
+    transform: rotate(45deg);
+    transform: skew(-60deg);
+    transform: translate(400px,-300px) scale(3) rotate(90deg) skew(50deg); 
+
+    /* to make the use of this properties at a time use "transform: translate(400px,-300px) scale(3) rotate(90deg);" . */
+    transform-origin: bottom right;  /* "transform-origin: bottom right;" this will make the rotation at particular point */
+}
+

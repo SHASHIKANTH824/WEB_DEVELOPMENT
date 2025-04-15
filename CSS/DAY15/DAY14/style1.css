@@ -1,0 +1,69 @@
+
+/* 3-D transformations */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem; 
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+}
+
+.box{
+    background-color: orange;
+    font-size: 6rem;
+    border: 1rem solid black;
+    height: 500px;
+    width: 500px;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.box1:hover{
+    transform: rotateX(45deg);
+}
+
+.box2:hover{
+    transform: rotatey(45deg);
+}
+
+.box3:hover{
+    transform: rotatez(45deg);
+}
+
+.box4:hover{
+    transform: translateX(200px);
+}
+
+.box5:hover{
+    transform: translatey(200px);
+}
+
+.box6:hover{
+    transform: perspective(300px) translatez(200px);
+}
+
+.box7:hover{
+    transform: scaleX(2);
+}
+
+.box8:hover{
+    transform: scaleY(2);
+}
+
+.box9:hover{
+    transform: scaleZ(2);  /* here scalez will increase the thickness , so it is not visible on the screen . */
+}

@@ -1,0 +1,45 @@
+/* different methods of color selecting */
+/* 1) by color: rgb */
+
+h1{
+    color: rgb(55, 12, 48);
+}
+
+/* 2) color name ke sath */
+
+h3{
+    color: aqua;
+}
+
+/* 3) by hexadecimal numbers ( here in this we have to give any six hexadecimal numbers after the # symbol) 
+ in this first two numbers represent red color , second two numbers represent green color, third two numbers represent blu color.*/
+
+h3{
+    color: #2b5f4f;
+}
+
+/* 4) by using hsl (HSL is a color model represents colors based on their hue,saturation,and lightness.
+HUE(H) is the color type (on wheel from 0 to 360), SATURATION(S) is the intensity of the color (0% is the gryscale and 100% is fully saturated), 
+and LIGHTNESS(L) defines how light or dark the color is (0% is black, 100% is white). )*/
+
+p{
+    color: hsl(40, 30%, 30%);
+}
+
+/* 5) by color:rgba (here " a " represents the transparency or intensity and it is known as alpha. the value of alpha lies from 0 to 1.
+if it is 0 then nothing will be visible , if it is 1 then it will show intensively)  */
+
+p{
+    color: rgba(52, 45, 96, 0.9);
+}
+
+/*adding background  */
+
+body{
+    background-image: url(./calm-weather-on-sea-ocean);
+    
+    background-size: cover;  /*here "cover" will make the image to fit with the screen. */
+
+    background-repeat: no-repeat ; /* here background will be repeated if we use the image directly. To prevent this we introduced
+    "background-repeat" tag to stop the repetation of image. */
+}

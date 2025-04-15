@@ -1,0 +1,23 @@
+*{
+    margin: 0%;
+}
+
+.one{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* here when we use the float element , the element won't occupy the complete space , it only occupies the space it requires only and the remaining 
+space will be given to the next element in the same line. */
+
+
+.two{
+    height: 300px;
+    width: 300px;
+    float: right;  
+    margin-left: 20px;
+}
+
+/* Here by default the image will be come on the left side in the webpage. */

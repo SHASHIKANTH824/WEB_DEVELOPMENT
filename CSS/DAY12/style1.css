@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    padding: 5rem;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(136, 122, 122);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    gap: 1rem;                          
+    row-gap: 1rem;                       
+    column-gap: 1rem;
+}
+.box{
+    font-size: 2rem;
+    background-color: orange;
+    border: 0.5rem solid black;
+}
+
+.header, .footer{
+    grid-column-start: 1;  /* here " grid-column-start: 1;  grid-column-end: 4;" this will make the header box to start at 1st column and expand 
+                              upto 4th column. shortcut for this is "grid-column: 1/4" */
+    grid-column-end: 4;
+}
+
+.sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+   /* or we can also say it as "grid-row:2/4", i.e the sidebar box will start at 2nd row and ends at 4th column. */
+}
+
+.content{
+    grid-column: 2/4;
+}

@@ -1,0 +1,30 @@
+
+/* methods of making responsive page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    background-color: black;
+    padding: 10rem;
+    display: grid;
+    justify-content: center;
+    gap: 6rem;
+    grid-template-columns: repeat(auto-fit,minmax(300px,500px));  /* here "grid-template-columns: repeat(auto-fit,minmax(300px,500px));" by using 
+    we can make the colummns of min width 300px and max width 500px , and the advantage of auto-fit is the columns will be occupied till the right
+    most corner , there is no need use the mediaquery here, the page will become responsive automatically by adjusting the columns according to width.*/
+}
+
+.box{
+    background-color: yellowgreen;
+    font-size: 8rem;
+}

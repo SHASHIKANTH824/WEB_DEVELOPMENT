@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orbit{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sun{
+    height: 400px;
+    width: 400px;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mars{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: mars;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mars{
+    from{
+        transform: rotate(0deg) translate(400px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(400px);
+    }
+}
+
+.earth{
+    background-color: rgba(11, 75, 224, 0.496);
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: earth;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes earth{
+    from{
+        transform: rotate(0deg) translate(750px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(750px);
+    }
+}
+
+
+.jupiter{
+    background-color: rgba(244, 10, 182, 0.837);
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: jupiter;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes jupiter{
+    from{
+        transform: rotate(0deg) translate(1250px);
+    }
+
+    to{
+        transform: rotate(360deg) translate(1250px);
+    }
+}
+
+.orbit1{
+    height: 800px;
+    width: 800px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    position: fixed;
+}
+
+
+.orbit2{
+    height: 1500px;
+    width: 1500px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    position: fixed;
+}
+
+
+.orbit3{
+    height: 2500px;
+    width: 2500px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    position: fixed;
+}

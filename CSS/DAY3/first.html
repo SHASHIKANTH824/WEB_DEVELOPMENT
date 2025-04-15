@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">   <!-- Here the inline css will come first . After this the internal css and external css will come.
+                                                   here incase of internal css and external css , the one which comes last will have the highest priority.
+                                                   if the "link" tag comes last , then it will have highest priority after inline css. 
+                                                   if the "style" tag comes last, then it will have the highest priority after inline css-->
+    <style>
+        h1{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="one" id="two" draggable="true" style="background-color: gold;">Hello coder army</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit earum aliquam natus, at dicceat!</p>
+    <ul>
+        <li>paneer</li>
+        <li>tofu</li>
+        <li>milk</li>
+        <li>bread</li>
+        <li>water</li>
+    </ul>
+</body>
+</html>

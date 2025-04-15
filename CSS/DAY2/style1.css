@@ -1,0 +1,40 @@
+/* here we use font tag for making the changes in writing style */
+
+h1{
+    font-family:Arial, Helvetica, sans-serif; /* here first it will choose the "Arial" font for the styling , if it doesn't work 
+    then it will choose the next one "Helvetica" for the styling , if this also not works then it will take "sans-serif" for the styling
+     of words , if this also not works then it will choose the default one from the browser. every browser will have one default font. 
+     Here sans-serif is the parent of all remaining fonts. some popular sans serif fonts are Arial, Helvetica, Proxima Nova etc... */
+
+}
+
+/* types of values in font-size */
+/* 1) px (pixel)  */
+
+h2{
+    font-size: 80px;
+}
+
+/* 2) em ( em is more traditional unit in the CSS. the em unit is relative to its nearest parent element's font size, malking it a dynamic and 
+flexible unit. for 2em means the size of the element is double the size of the nearest parent element's font size.)
+Here the font size of body and the head will be depended on the browser, but the default font-size of body and head is the 16px (pixel). 
+ex: h1 element font-size: 5em , i.e the value of font-size of h1 element in px(pixel) is 16*5=80 , i.e 80px is the font-size of h1 element.*/
+
+h3{
+    font-size: 5em;
+}
+
+/* 3) rem (it stands for "root em" , a unit of measurement that represents the fontsize of the root element. this means 1 rem equals the font size
+of the html element, which for most browsers has a defaullt value of 16px. ex:3rem means 48px same like the em.) */
+
+h4{
+    font-size: 4rem;
+
+}
+
+/* 4)  % (it is relative to the parent font-size. ex: 200% means double the font-size of parent , 50% means the half of the parents font-size. ) */
+
+h4{
+    font-size: 70%;
+}
+
