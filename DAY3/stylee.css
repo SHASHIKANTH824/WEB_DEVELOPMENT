@@ -1,0 +1,271 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+
+.firstpart{
+    animation: 25s infinite bgcolorchange1;
+  }
+
+@keyframes bgcolorchange1 {
+    0% {
+      background-color: rgb(94, 11, 11);
+    }
+    25% {
+      background-color: rgb(11, 172, 11);
+    }
+    50% {
+      background-color: rgb(37, 35, 58);
+    }
+    75% {
+      background-color: rgb(169, 169, 22);
+    }
+    100% {
+      background-color: rgb(184, 21, 130);
+    }
+  }
+
+
+  
+.secondpart{
+    animation: 25s infinite bgcolorchange2;
+  }
+
+@keyframes bgcolorchange2 {
+    0% {
+      background-color: rgb(94, 11, 11);
+    }
+    25% {
+      background-color: rgb(11, 172, 11);
+    }
+    50% {
+      background-color: rgb(37, 35, 58);
+    }
+    75% {
+      background-color: rgb(169, 169, 22);
+    }
+    100% {
+      background-color: rgb(184, 21, 130);
+    }
+  }
+
+
+
+.thirdpart{
+    animation: 25s infinite bgcolorchange3;
+  }
+
+@keyframes bgcolorchange3 {
+    0% {
+      background-color: rgb(177, 96, 96);
+    }
+    25% {
+      background-color: rgb(76, 163, 76);
+    }
+    50% {
+      background-color: rgb(77, 70, 150);
+    }
+    75% {
+      background-color: rgb(148, 148, 74);
+    }
+    100% {
+      background-color: rgb(159, 84, 134);
+    }
+  }
+
+  .firstpart{
+    height: 80vh;
+    width: 44.44vw;
+    position: absolute;
+    z-index: 3;
+    border-radius: 30%;
+    box-shadow: 35px 35px 35px 35px rgb(37, 35, 58);
+    margin-top: 400px;
+    margin-left: 100px;
+  }
+
+  .secondpart{
+    height: 80vh;
+    width: 44.44vw;
+    position: absolute;
+    z-index: 2;
+    border-radius: 30%;
+    box-shadow: 35px 35px 35px 35px rgb(37, 35, 58);
+    font-size: 2.5vw;
+    margin-top: 400px;
+    margin-left: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .thirdpart{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .box {
+     display: inline-block;
+  }
+
+  .days{
+    font-size: 3vw;
+    display: inline-block;
+  }
+
+  .img{
+    height: 1.5vw;
+    width: 1.5vw;
+    border-radius: 50%;
+  }
+
+  .middle{
+    margin-left: 4vw;
+    font-size: 1.25vw;
+    width:35vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+.head{
+    display: flex;
+    align-items: center;
+}
+
+
+   .search{
+    display: inline-block;
+    height: 4vh;
+    width: 9vw;
+    border-radius: 20%;
+    font-size: 1.25vw;
+    margin-left: 18vw;
+    background-color: gray;
+  }
+
+  .searching{
+    height: 4vh;
+    width: 11vw;
+    border-radius: 15%;
+    font-size: 1.25vw;
+    margin-left: 17.75vw;
+    display: inline-block;
+  }
+
+  .button{
+    width: 20vw;
+    display: flex;
+    justify-self: flex-end;
+  }
+
+
+.name{
+    margin-top: 20vh;
+    margin-left: 5.5vw;
+}
+
+.one,.three,.four{
+    font-size: 2vw;
+}
+
+.two{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.img2{
+    height: 1.75vw;
+    width: 1.75vw;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 5.25vw;
+}
+
+.five{
+    font-size: 1.75vw;
+    display: inline-block;
+    padding-left: 0.5vw;
+    position: relative;
+    bottom: 5px;
+    left: 5vw;
+}
+
+
+.four{
+    padding-left: 5px;
+}
+
+.name{
+    height: 15vh;
+}
+
+.location{
+    margin-left: 5vw;
+}
+
+.footer{
+    font-size: 1vw;
+    margin-top: 90vh;
+}
+
+.doo,.teen,.char{
+    display: inline-block;
+}
+
+.dates{
+    display: block;
+    position: relative;
+    bottom: 500px;
+    left: 11vw;
+    font-weight: bold;
+}
+
+.doo{
+    position: relative;
+    right: 10vw;
+    font-weight: bold;
+}
+
+
+.char{
+    position: relative;
+    left: 5vw;
+    font-weight: bold;
+}
+
+.teen{
+    position: relative;
+    right: 2.5vw;
+    font-weight: bold;
+}
+
+#Daysss1{
+  margin-left: 0.65vw;
+}
+
+#Daysss2{
+  margin-left: 2vw;
+}
+
+#Daysss3{
+  margin-left: 2.5vw;
+}
+
+#Daysss4{
+  margin-left: 2.5vw;
+}
+

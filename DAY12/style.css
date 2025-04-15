@@ -1,0 +1,160 @@
+body {
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20vh;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    padding: 170px;
+    box-shadow: 0 20px 75px rgba(0, 0, 0, 0.1);
+    width: 2400px;
+    min-height: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 8.5rem;
+    color: #333;
+}
+
+/* Board Styles */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 600px);
+    grid-template-rows: repeat(3, 600px);
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+/* Individual Cells */
+.cell {
+    width: 600px;
+    height: 600px;
+    background-color: #fff;
+    border: 10px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25rem;
+    font-weight: bold;
+    color: #333;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.cell.taken {
+    pointer-events: none;
+    color: #555;
+}
+
+
+
+.winning-message {
+    font-size: 7.5rem;
+    margin-top: 100px;
+    color: #333;
+}
+
+/* Restart Button */
+button {
+    padding: 60px 100px;
+    font-size: 5.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Responsive Styles */
+@media (max-width: 2500px) {
+    .board {
+        grid-template-columns: repeat(3, 500px);
+        grid-template-rows: repeat(3, 500px);
+    }
+
+    .cell {
+        width: 500px;
+        height: 500px;
+    }
+
+    button {
+        font-size: 5rem;
+        padding: 50px 75px;
+    }
+
+    h1 {
+        font-size: 10rem;
+    }
+}
+
+
+
+h2{
+    font-size: 5rem;
+    background-color: #28a745;
+    padding: 40px;
+    border-radius: 55px;
+    width: 5.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one{
+    position: relative;
+    right: 35vw;
+    bottom: 75vh;
+}
+
+.two{
+    position: relative;
+    left: 35vw;
+    bottom: 84vh;
+}
+
+img{
+    height: 25vh;
+    width: 20vw;
+}
+
+#img1{
+    position: absolute;
+    left: 5vw;
+}
+ 
+#img2{
+    position: absolute;
+    right: 5vw;
+}

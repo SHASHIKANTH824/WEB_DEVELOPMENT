@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Student Registration Form</h1>
+        <form>
+<!--here if we don't put the "label" , "input", and "button" inside the "form", then it won't submit anything to the backened , it will treat all these "label" , "input", and "button" elements as individuals elements -->
+            <label for="first">User Name:</label>
+            <input type="text" id="first" name="Name" placeholder="Enter your user name">
+
+            <label for="second">Last name:</label>
+            <input type="text" id="second" name="Name" placeholder="Enter your lastname">
+
+            <label for="third">Age:</label>
+            <input type="text" id="first" name="Name" placeholder="Enter your Age">
+
+            <button type="submit">Submit</button>
+        <div id="result">Result:</div>
+        </form>
+    </div>
+    <script src="./first1.js"></script>
+</body>
+</html>

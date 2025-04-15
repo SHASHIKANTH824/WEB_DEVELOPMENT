@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astrology Horoscope</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video src="./201293-915375233.mp4" id="myvideo" autoplay muted loop></video>
+    <div class="container">
+        <!-- Input Section (Left) -->
+        <div class="input-section">
+            <h1>Astrology Form</h1>
+            <form id="astroForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="first" placeholder="Name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="Surname" required>
+
+                <label for="year">Birth year:</label>
+                <input type="number" id="year" name="year" min="1900" max="2025" placeholder="Enter Year" required>
+
+                <label for="month">Birth month:</label>
+                <input type="number" id="month" name="month" min="1" max="12" placeholder="Enter Month" required>
+
+                <label for="day">Birth day:</label>
+                <input type="number" id="day" name="day" min="1" max="31" placeholder="Enter Day" required>
+
+                <label for="time">Time of Birth:</label>
+                <input type="time" id="time" name="time" placeholder="Enter Time" required>
+
+                <label for="place">Place of Birth:</label>
+                <input type="text" id="place" name="place" placeholder="City, Country" required>
+
+                <input type="submit" value="Horoscope" class="button">
+            </form>
+        </div>
+
+        <!-- Output Section (Right) -->
+        <div class="output-section">
+            <h2>Your Horoscope</h2>
+            <div class="result" id="result">
+            Enter your details on the left to see your horoscope predictions here.
+            </div>
+        </div>
+    </div>
+    <script src="./first.js"></script>
+</body>
+</html>

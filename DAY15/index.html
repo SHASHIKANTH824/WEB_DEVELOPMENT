@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+
+        <div id="head">
+            <button id="Filters">Filters</button>
+            <button id="Offers">Offers</button>
+            <button id="Rating">Rating abve 4.5</button>
+            <button id="Alcohol">Alcohol</button>
+            <button id="Open">Open Now</button>
+        </div>
+
+        <div id="filterpopup" class="hidden" style="background-color: #fff">
+            <h3>Choose Fliter</h3>
+            <div class="filterOption">
+                <input type="radio" id="SortByRating" name="filterOption" value="rating" >
+                <label for="SortByRating">sort by rating</label>
+            </div>
+            <div class="filterOption">
+                <input type="radio" id="SortHighToLow" name="filterOption" value="highLow" >
+                <label for="SortHighToLow">High to low price</label>
+            </div>
+            <div class="filterOption">
+                <input type="radio" id="costOption" name="filterOption" value="costLowHigh" >
+                <label for="costOption">For: cost low to high</label>
+            </div>
+            <div class="filterOption">
+                <input type="radio" id="distanceOption" name="filterOption" value="distance" >
+                <label for="distanceOption">Distance</label>
+            </div>
+            <button id="applyFilter">Apply</button>
+            <button id="colseFilter">Close</button>
+        </div>
+
+
+        <div id="root"></div>
+
+
+        <script src="./first.js"></script>
+    </body>
+    </html>
+</body>
+</html>
